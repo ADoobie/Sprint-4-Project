@@ -60,7 +60,7 @@ st.write(px.scatter(df,
                      color_discrete_sequence=px.colors.qualitative.Bold))
 
 # histogram
-st.header('Listings Posed by Month')
+st.header('Listings Posted by Month')
 df["date_posted"] = pd.to_datetime(df['date_posted'])
 df["posted_month"] = df["date_posted"].dt.month
 st.write(px.histogram(df, 
