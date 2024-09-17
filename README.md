@@ -8,4 +8,4 @@ you can run the app yourself by creating a virtual python enviorment on windows 
 `python -m venv .venv` in the 'Command Prompt' then moving to the directory for `Sprint-4-Project`..
 proceeding with codes: `pip install -r requirements.txt` then `streamlit run app.py`.
 
-The web app can also be viewed on render <a href="https://www.got-cars.onrender.com" target="_blank">Visit Render</a>
+The web app can also be viewed on render <a href="https://got-cars.onrender.com" target="_blank">Visit Render</a>
